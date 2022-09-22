@@ -9,9 +9,9 @@ public class CriarBanco {
 
 	public static void main(String[] args) throws SQLException{
 		
-		final String url = "jdbc:mysql://localhost?verifyServerCertification=false&useSSL=false";
-		final String usuario = "root";
-		final String senha = "12345678";
+		final String url = "";
+		final String usuario = "";
+		final String senha = "";
 		
 		Connection conexao = DriverManager.getConnection(url, usuario, senha);
 		

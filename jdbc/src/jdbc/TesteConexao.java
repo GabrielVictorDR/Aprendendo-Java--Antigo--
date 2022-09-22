@@ -8,9 +8,9 @@ public class TesteConexao {
 
 	public static void main(String[] args) throws SQLException {
 		 
-		final String url = "jdbc:mysql://localhost?verifyServerCertificate=false&useSSl=false";
-		final String usuario = "root";
-		final String senha = "12345678";
+		final String url = "";
+		final String usuario = "";
+		final String senha = "";
 		
 		Connection conexao = DriverManager
 				.getConnection(url, usuario, senha);
